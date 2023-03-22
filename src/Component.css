@@ -155,7 +155,7 @@
   width: 5%;
 }
 .foot_main{
-  height: 30vh;
+  height: 20vh;
   width: 100vw;
   background-color: black;
   display: flex;
@@ -171,8 +171,8 @@
   justify-content: space-around !important; 
 }
 .logo_img img{
-  height: 10rem;
-  width: 10rem;
+  height: 7rem;
+  width: 7rem;
   background-color: white;
 }
 @media screen and (max-width: 400px) {
@@ -217,9 +217,6 @@
   .contact_head{
     font-size: 3rem;
   }
-  /* .contact_main{
-    margin-top: 2rem;;
-  } */
   .contact_body{
     flex-direction: column;
   }
@@ -233,5 +230,13 @@
   .car_head{
     font-size: 1.7rem !important;
     font-weight: bolder !important;
+  }
+  .foot_main{
+    height: 15vh;
+  }
+  .logo_img img{
+    height: 5rem;
+    width: 5rem;
+    background-color: white;
   }
 }
