@@ -1,14 +1,15 @@
 import React from "react";
 import "../Component.css";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary bg-black">
+      <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-black">
         <div className="container-fluid">
-          <a style={{color: "white",fontWeight:"bold"}} className="navbar-brand" href="#">
-            Techanathon
-          </a>
+          <Link style={{color: "white",fontWeight:"bold"}} className="navbar-brand" to="#">
+            TechGyanathon
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,17 +23,17 @@ export default function Navbar() {
             <span className="navbar-toggler-icon" ></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-              <a className="nav-link active" style={{color: "white",fontWeight:"bold"}} aria-current="page" href="#">
+            <div className="navbar-nav">             
+              <Link className="nav-link active" style={{color: "white",fontWeight:"bold"}} aria-current="page" to="#">
                 Home
-              </a>
-              <a className="nav-link" style={{color: "white",fontWeight:"bold"}} href="#">
-                Features
-              </a>
-              <a className="nav-link" style={{color: "white",fontWeight:"bold"}} href="#">
-                Pricing
-              </a>
-              <a className="nav-link disabled" style={{color: "white",fontWeight:"bold"}}>Disabled</a>
+              </Link>
+              <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="#about">
+                About
+              </Link>
+              <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="#contact">
+                Contact
+              </Link>
+              {/* <Link className="nav-link disabled" style={{color: "white",fontWeight:"bold"}}>Disabled</Link> */}
             </div>
           </div>
         </div>

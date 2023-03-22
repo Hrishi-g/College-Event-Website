@@ -3,19 +3,19 @@ import "../Component.css";
 
 export default function About() {
   return (
-    <div className="div_about">
+    <div className="div_about" id="about">
       <div className="head_text">About</div>
       <div
         id="carouselExampleAutoplaying"
-        class="carousel slide carousel-fade my-3"
+        className="carousel slide carousel-fade my-3"
         data-bs-ride="carousel"
       >
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -26,9 +26,9 @@ export default function About() {
             aria-label="Slide 2"
           ></button>
         </div>
-        <div class="carousel-inner">
+        <div className="carousel-inner">
           <div
-            class="carousel-item active"
+            className="carousel-item active"
             data-bs-delay="1500"
             data-bs-interval="5000"
           >
@@ -47,7 +47,7 @@ export default function About() {
               Blocklogy and Ekeeda Pvt Ltd.
             </p>
           </div>
-          <div class="carousel-item" data-delay="1500" data-bs-interval="5000">
+          <div className="carousel-item" data-delay="1500" data-bs-interval="5000">
             <h1>About us</h1>
             <p>
               What is TechStorm? TechStorm is an Intercollegiate IT Festival
@@ -68,22 +68,22 @@ export default function About() {
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </div>
