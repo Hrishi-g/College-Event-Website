@@ -1,6 +1,3 @@
-body{
-  overflow-x: hidden;
-}
 #root{
   background-color: black;
   height: 100vh;
@@ -25,6 +22,7 @@ body{
   letter-spacing: 2px;
 }
 .car_head{
+  margin-top: 0.5rem;
   font-size: 3rem !important;
   color: rgb(69,162,230) !important;
   font-family: adrasta !important;
@@ -156,6 +154,27 @@ body{
   height: 100%;
   width: 5%;
 }
+.foot_main{
+  height: 30vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo_img{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around !important; 
+}
+.logo_img img{
+  height: 10rem;
+  width: 10rem;
+  background-color: white;
+}
 @media screen and (max-width: 400px) {
   html {
     font-size: 12px;
@@ -169,6 +188,8 @@ body{
   }
   .videoTag{
     height: 100% !important;
+    width:100vw !important;
+    object-fit: cover;
   }
   .div_about{
     height: 70vh;

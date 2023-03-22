@@ -11,7 +11,8 @@ export default function Carousel() {
         </video>
         <div className="carousel-content">
         <h4>Vasantdada Prathisthan College</h4>
-        <h4>College Of Engineering</h4>
+        <h4>Of Engineering</h4>
+        <h4>IT Department Presents</h4>
         <h1 className="car_head">TechGyanathon</h1>
       </div>
       </div>
