@@ -190,6 +190,10 @@ body{
   background-color: white;
   border-radius: 50%;
 }
+.social a img{
+  height: 2rem;
+  width: 2rem;
+}
 .dropdown{
   margin-left: 1rem;
 }

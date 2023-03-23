@@ -1,5 +1,6 @@
 import React from "react";
 import "../Component.css";
+import insta from "../img/instagram.svg"
 
 export default function Contact() {
   return (
@@ -15,10 +16,10 @@ export default function Contact() {
           <div className="right">
             <div>
             <h1>Email</h1>
-            <p>Vasantdada@pvvcoe.ac.in</p>
+            <p>Techgyanathon@pvppcoe.ac.in</p>
             </div>
           </div>
-          <div className="social"></div>
+          <div className="social"><a href="https://www.instagram.com/itsa_vppcoe/" target="_blank"><img src={insta} alt="" /></a></div>
       </div>
     </div>
   );

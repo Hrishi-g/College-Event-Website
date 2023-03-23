@@ -7,7 +7,7 @@ export default function Navbar() {
     <>
       <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-black">
         <div className="container-fluid">
-          <Link style={{color: "white",fontWeight:"bold"}} className="navbar-brand" to="/">
+          <Link style={{color: "white",fontWeight:"bold"}} className="navbar-brand" to="/#">
             TechGyanathon
           </Link>
           <button
@@ -24,7 +24,7 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">             
-              <Link className="nav-link active" style={{color: "white",fontWeight:"bold"}} aria-current="page" to="/">
+              <Link className="nav-link active" style={{color: "white",fontWeight:"bold"}} aria-current="page" to="/#">
                 Home
               </Link>
               <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="/#about">
