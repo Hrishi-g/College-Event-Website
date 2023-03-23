@@ -1,3 +1,6 @@
+html{
+  background-color: black;
+}
 body{
   overflow-x: hidden;
 }
@@ -105,7 +108,7 @@ body{
   display: flex;
 }
 .head_text{
-  margin-top: -1.5rem;
+  /* margin-top: -1.5rem; */
   font-size: 4rem;
   font-weight: bolder;
   color:  rgb(69,162,230);
@@ -170,6 +173,9 @@ body{
   justify-content: center;
   flex-direction: column;
 }
+.foot_main h6{
+  text-align: center;
+}
 .logo_img{
   height: 70%;
   width: 100%;
@@ -179,9 +185,35 @@ body{
   justify-content: space-around !important; 
 }
 .logo_img img{
-  height: 7rem;
-  width: 7rem;
+  height: 5rem;
+  width: 5rem;
   background-color: white;
+  border-radius: 50%;
+}
+.dropdown{
+  margin-left: 1rem;
+}
+.card_main{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card{
+  background-color: #202020 !important;
+  color: white;
+}
+.row_1,.row_2{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.row_1{
+  margin-bottom: 5rem;
 }
 @media screen and (max-width: 400px) {
   html {
@@ -193,6 +225,9 @@ body{
   .div_vid{
     height: 90vh !important;
     width: 100vw; 
+  }
+  .nav-link{
+    font-size: 15px !important;
   }
   .videoTag{
     height: 100% !important;
@@ -247,7 +282,21 @@ body{
     width: 5rem;
     background-color: white;
   }
-}
-.dropdown{
-  margin-left: 1rem;
+  .card_main{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .row_1,.row_2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card{
+    margin-bottom: 3rem;
+  }
 }

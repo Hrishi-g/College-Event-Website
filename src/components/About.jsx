@@ -50,9 +50,8 @@ export default function About() {
           <div className="carousel-item" data-delay="1500" data-bs-interval="5000">
             <h1>About us</h1>
             <p>
-              What is TechStorm? TechStorm is an Intercollegiate IT Festival
-              organized by the Department of Computer Science & Information
-              Technology. TechStorm is an assortment of well-thought-out events
+              What is TechGyanathon? TechGynathon is an Intercollegiate IT Festival
+              organized by the Department of Information Technology. TechGyanathon is an assortment of well-thought-out events
               catering to anyone and everyone who is more than just casually
               interested in computers.
               <p></p>

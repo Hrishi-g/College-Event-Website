@@ -1,6 +1,7 @@
 import Carousel from "./components/Carousel";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Card from "./components/Card";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Carousel/>}/>
-        {/* <Route path="/card" element={<Card/>}/> */}
+        <Route path="/card" element={<Card/>}/>
       </Routes>
     <Footer/>
     </BrowserRouter>
