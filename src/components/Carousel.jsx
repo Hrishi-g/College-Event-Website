@@ -16,8 +16,8 @@ export default function Carousel() {
         <h4>Vasantdada Patil Prathisthan's</h4>
         <h4>College Of Engineering</h4>
         <h4>IT Department Presents</h4>
-        <h1 className="car_head">TechGyanathon</h1>
-        <button type="button" class="btn btn-outline-info">
+        <h1 className="car_head">ITSA</h1>
+        <button type="button" className="btn btn-outline-info">
           <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="/card">
                 Know More
           </Link></button>

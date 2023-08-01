@@ -8,7 +8,7 @@ export default function Navbar() {
       <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-black">
         <div className="container-fluid">
           <Link style={{color: "white",fontWeight:"bold"}} className="navbar-brand" to="/#">
-            TechGyanathon
+           0 ITSA 0
           </Link>
           <button
             className="navbar-toggler"
@@ -32,6 +32,9 @@ export default function Navbar() {
               </Link>
               <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="/#contact">
                 Contact
+              </Link>
+              <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="/gallery">
+                Team
               </Link>
               <Link className="nav-link" style={{color: "white",fontWeight:"bold"}} to="/card">
                 Events

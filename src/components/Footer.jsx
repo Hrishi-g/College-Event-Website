@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className='foot_main'>
         <div className='logo_img'>
-            <img src={logo} alt="image" />
+            <img src={logo} alt="" />
             <img src={csilogo} alt="" />
         </div>
         <h6>Developed by Hrishikesh Gupta</h6>

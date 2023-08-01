@@ -14,12 +14,10 @@ export default function Contact() {
             </div>
           </div>
           <div className="right">
-            <div>
             <h1>Email</h1>
             <p>Techgyanathon@pvppcoe.ac.in</p>
             </div>
-          </div>
-          <div className="social"><a href="https://www.instagram.com/itsa_vppcoe/" target="_blank"><img src={insta} alt="" /></a></div>
+          <div className="social"><a href="https://www.instagram.com/itsa_vppcoe/" target="_blank" rel="noreferrer"><img src={insta} alt="" /></a></div>
       </div>
     </div>
   );
